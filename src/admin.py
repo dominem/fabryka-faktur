@@ -1,4 +1,6 @@
-from django.contrib.admin import AdminSite
+from django.contrib.admin import AdminSite, ModelAdmin
+
+from .models import Invoice
 
 
 class FabrykaFakturAdminSite(AdminSite):
@@ -8,3 +10,10 @@ class FabrykaFakturAdminSite(AdminSite):
 
 
 site = FabrykaFakturAdminSite()
+
+
+class InvoiceAdmin(ModelAdmin):
+    list_display = ('id', 'name', 'issue_date', 'sale_date')
+
+
+site.register(Invoice, InvoiceAdmin)
