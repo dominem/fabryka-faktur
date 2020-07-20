@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 19:50+0200\n"
+"POT-Creation-Date: 2020-07-20 20:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,38 +20,98 @@ msgstr ""
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: src/models.py:17
+#: src/models.py:24
 msgid "Invoice"
 msgstr "Faktura"
 
-#: src/models.py:18
+#: src/models.py:25
 msgid "Invoices"
 msgstr "Faktury"
 
-#: src/models.py:20
+#: src/models.py:27 src/models.py:45
 msgid "Name"
 msgstr "Nazwa"
 
-#: src/models.py:21
+#: src/models.py:28
 msgid "Filename"
 msgstr "Nazwa pliku"
 
-#: src/models.py:22
+#: src/models.py:29
 msgid "Issue date"
 msgstr "Data wystawienia"
 
-#: src/models.py:23
+#: src/models.py:30
 msgid "Sale date"
 msgstr "Data sprzedaży"
 
-#: src/models.py:24
+#: src/models.py:31
 msgid "Payment deadline"
 msgstr "Termin płatności"
 
-#: src/models.py:25
+#: src/models.py:32
 msgid "Payment method"
 msgstr "Metoda płatności"
 
-#: src/models.py:26
+#: src/models.py:33
 msgid "Paid"
 msgstr "Zapłacono"
+
+#: src/models.py:42
+msgid "Company"
+msgstr "Firma"
+
+#: src/models.py:43
+msgid "Companies"
+msgstr "Firmy"
+
+#: src/models.py:46
+msgid "Tax ID"
+msgstr "NIP"
+
+#: src/models.py:47 src/models.py:54
+msgid "Address"
+msgstr "Adres"
+
+#: src/models.py:48
+msgid "Bank account"
+msgstr "Konto bankowe"
+
+#: src/models.py:55
+msgid "Addresses"
+msgstr "Adresy"
+
+#: src/models.py:57
+msgid "Country"
+msgstr "Kraj"
+
+#: src/models.py:58
+msgid "City"
+msgstr "Miejscowość"
+
+#: src/models.py:59
+msgid "ZIP Code"
+msgstr "Kod pocztowy"
+
+#: src/models.py:60
+msgid "Street"
+msgstr "Ulica"
+
+#: src/models.py:61
+msgid "Street number"
+msgstr "Numer domu"
+
+#: src/models.py:67
+msgid "Bank Account"
+msgstr "Konto bankowe"
+
+#: src/models.py:68
+msgid "Bank Accounts"
+msgstr "Konta bankowe"
+
+#: src/models.py:70
+msgid "Bank name"
+msgstr "Nazwa banku"
+
+#: src/models.py:71
+msgid "Bank account number"
+msgstr "Numer konta bankowego"
