@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 20:54+0200\n"
+"POT-Creation-Date: 2020-07-20 21:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Faktura"
 msgid "Invoices"
 msgstr "Faktury"
 
-#: src/models.py:27 src/models.py:45
+#: src/models.py:27 src/models.py:47
 msgid "Name"
 msgstr "Nazwa"
 
@@ -56,62 +56,70 @@ msgstr "Metoda płatności"
 msgid "Paid"
 msgstr "Zapłacono"
 
-#: src/models.py:42
+#: src/models.py:34
+msgid "Seller"
+msgstr "Sprzedawca"
+
+#: src/models.py:35
+msgid "Buyer"
+msgstr "Nabywca"
+
+#: src/models.py:44
 msgid "Company"
 msgstr "Firma"
 
-#: src/models.py:43
+#: src/models.py:45
 msgid "Companies"
 msgstr "Firmy"
 
-#: src/models.py:46
+#: src/models.py:48
 msgid "Tax ID"
 msgstr "NIP"
 
-#: src/models.py:47 src/models.py:54
+#: src/models.py:49 src/models.py:59
 msgid "Address"
 msgstr "Adres"
 
-#: src/models.py:48
+#: src/models.py:50
 msgid "Bank account"
 msgstr "Konto bankowe"
 
-#: src/models.py:55
+#: src/models.py:60
 msgid "Addresses"
 msgstr "Adresy"
 
-#: src/models.py:57
+#: src/models.py:62
 msgid "Country"
 msgstr "Kraj"
 
-#: src/models.py:58
+#: src/models.py:63
 msgid "City"
 msgstr "Miejscowość"
 
-#: src/models.py:59
+#: src/models.py:64
 msgid "ZIP Code"
 msgstr "Kod pocztowy"
 
-#: src/models.py:60
+#: src/models.py:65
 msgid "Street"
 msgstr "Ulica"
 
-#: src/models.py:61
+#: src/models.py:66
 msgid "Street number"
 msgstr "Numer domu"
 
-#: src/models.py:67
+#: src/models.py:75
 msgid "Bank Account"
 msgstr "Konto bankowe"
 
-#: src/models.py:68
+#: src/models.py:76
 msgid "Bank Accounts"
 msgstr "Konta bankowe"
 
-#: src/models.py:70
+#: src/models.py:78
 msgid "Bank name"
 msgstr "Nazwa banku"
 
-#: src/models.py:71
+#: src/models.py:79
 msgid "Bank account number"
 msgstr "Numer konta bankowego"

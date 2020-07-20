@@ -13,7 +13,7 @@ site = FabrykaFakturAdminSite()
 
 
 class InvoiceAdmin(ModelAdmin):
-    list_display = ('id', 'name', 'issue_date', 'sale_date')
+    list_display = ('id', 'name', 'issue_date', 'sale_date', 'seller', 'buyer')
 
 
 class CompanyAdmin(ModelAdmin):

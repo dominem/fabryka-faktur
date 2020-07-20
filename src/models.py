@@ -31,6 +31,8 @@ class Invoice(models.Model):
     payment_deadline = models.PositiveSmallIntegerField(default=14, verbose_name=_('Payment deadline'))
     payment_method = models.CharField(max_length=50, default="przelew", verbose_name=_('Payment method'))
     paid = models.DecimalField(max_digits=20, decimal_places=2, default=Decimal(0), verbose_name=_('Paid'))
+    seller = models.ForeignKey('Company', on_delete=models.SET_NULL, null=True, verbose_name=_('Seller'), related_name='invoices_as_seller')
+    buyer = models.ForeignKey('Company', on_delete=models.SET_NULL, null=True, verbose_name=_('Buyer'), related_name='invoices_as_buyer')
 
     def __str__(self):
         return self.name
